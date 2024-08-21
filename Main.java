@@ -6,5 +6,8 @@ public class Main {
         Gallina gallina = new Gallina();
         pato.cantar();
         gallina.cantar();
+
+        PatoNegro patoNegro = new PatoNegro(pato);
+        patoNegro.cantar();
     }
 }
